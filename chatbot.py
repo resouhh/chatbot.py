@@ -9,7 +9,7 @@ emotion_detector = pipeline("text-classification", model="ahmettasdemir/distilbe
 sentiment_analyzer = pipeline("text-classification", model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
 
 # Replicate API configuration for LLaMA 3.1
-REPLICATE_API_TOKEN = "r8_AxowvxYyat99SQh6Qm8bURvbYFufEGJ1kbIBt"  # Replace with your Replicate API token
+REPLICATE_API_TOKEN = "your_replicate_api_token_here"  # Replace with your Replicate API token
 REPLICATE_MODEL_URL = "https://replicate.com/meta/meta-llama-3-70b-instruct/api"  # The API URL for Replicate LLaMA model
 
 # Function to detect emotion
